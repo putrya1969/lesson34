@@ -1,0 +1,140 @@
+{
+	"info": {
+		"_postman_id": "ebbcef1f-a546-40e4-a07f-d0a4645e3bb4",
+		"name": "Beetroot",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GetMethod",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7079/api/users",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7079",
+					"path": [
+						"api",
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetMethodId",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7079/api/users/5",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7079",
+					"path": [
+						"api",
+						"users",
+						"5"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PostMethod",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Natali\",\r\n    \"age\": 47\r\n}"
+				},
+				"url": {
+					"raw": "https://localhost:7079/api/users",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7079",
+					"path": [
+						"api",
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PutMethod",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 4,\r\n    \"name\": \"Natali\",\r\n    \"age\": 25\r\n}"
+				},
+				"url": {
+					"raw": "https://localhost:7079/api/users",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7079",
+					"path": [
+						"api",
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DeleteMethod",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 4,\r\n    \"name\": \"Natali\",\r\n    \"age\": 25\r\n}"
+				},
+				"url": {
+					"raw": "https://localhost:7079/api/users",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7079",
+					"path": [
+						"api",
+						"users"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
